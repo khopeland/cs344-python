@@ -9,6 +9,7 @@ def analyze_text(text):
         "words": word_count,
         "lowercase_e": e_count
     }
+        
 
 
 def main():
