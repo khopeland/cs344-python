@@ -1,0 +1,33 @@
+WEEK 6 TESTING NOTES
+
+TEST 1
+Input file: grades_small.txt
+
+Expected:
+- 5 valid student records
+- 0 malformed records skipped
+- Class average of 87.00
+- Highest grade: Maria Lopez with 96.00
+- Lowest grade: James Brown with 74.00
+
+TEST 2
+Input file: grades_mixed.txt
+
+Expected:
+- 8 valid student records
+- 5 malformed records skipped
+- Class average of 86.12
+- Highest grade: Maria Lopez with 96.00
+- Lowest grade: James Brown with 74.00
+
+DEFENSIVE CHECKS
+- Empty lines are skipped.
+- Lines without exactly one comma-separated name and score are skipped.
+- Missing student names are skipped.
+- Non-numeric scores are skipped.
+- Scores below 0 or above 100 are skipped.
+- Missing files display a readable error instead of crashing.
+
+BUG OR DEFENSIVE CHECK ADDED
+The program skips empty lines before splitting them. This prevents index errors
+when a blank line appears in the input file.

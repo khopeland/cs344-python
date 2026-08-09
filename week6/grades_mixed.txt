@@ -1,0 +1,14 @@
+Kevin Copeland,92
+Dominic Smith,85
+James Brown,74
+
+Maria Lopez,96
+Ashley Johnson,88
+Robert Davis,not-a-score
+,81
+Tina Wilson,105
+Incorrect Line
+Marcus Green,79
+Sarah Martinez,91
+Brian Clark,-4
+Jennifer Lee,84
